@@ -1,0 +1,2687 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="https://www.kdm.com/OWL/ReDefine"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="https://www.kdm.com/OWL/ReDefine">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#BigData"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CloudComputing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ClusterComputing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DatabaseComputing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DistributedComputing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#KnowledgeDiscovery"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MachineLearning"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MobileComputing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ParallelComputing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SoftwareEngineering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Topic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Topic7"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Topic6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Topic5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#d"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Topic4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Topic3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#batch"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Topic2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#rdbms"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Topic1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#stream"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#k"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#myname"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Topic9"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Topic8"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#graphx"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#web"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#graphs"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#spark"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasTopic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ontology"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#key"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#precision"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#recall"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gae"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#clustering"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#mean"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#developer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#webtable"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#relational"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Fields"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#entity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#bigtable"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#version"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rdbms"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#incremental"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#batch"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#structure"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#javascript"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#peer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#spanner"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ontology"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#hive"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#value"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#statistical"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#android"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#gae"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#mean"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#clustering"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#developer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#crowdsource"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bigtable"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#relational"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Topic10"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#version"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#dbpedia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#incremental"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#javascript"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#peer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#oltp"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#percolator"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#structure"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#uima"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#qos"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#usability"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#qualitative"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#recall"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#vector"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hadoop"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pregel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#value"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hive"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#app"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#persistent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#consistency"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#statistical"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#android"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#supervise"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#mapreduce"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#processing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#crowdsource"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Topic10"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pagerank"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Topic9"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#d"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Topic8"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#app"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Topic7"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#oltp"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#percolator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Topic6"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Topic5"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Topic4"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Topic3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Topic2"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isRelatedTo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#k"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#stream"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#dbpedia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#web"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#spark"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#uima"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#graphs"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#qos"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#usability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#qualitative"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Topic1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#vector"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#hadoop"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#key"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#persistent"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pregel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#graphx"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#precision"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#consistency"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#supervise"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#spanner"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#webtable"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#mapreduce"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#processing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#entity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pagerank"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#BigData"/>
+        <Class IRI="#Fields"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CloudComputing"/>
+        <Class IRI="#Fields"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ClusterComputing"/>
+        <Class IRI="#Fields"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DatabaseComputing"/>
+        <Class IRI="#Fields"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DistributedComputing"/>
+        <Class IRI="#Fields"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#KnowledgeDiscovery"/>
+        <Class IRI="#Fields"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MachineLearning"/>
+        <Class IRI="#Fields"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MobileComputing"/>
+        <Class IRI="#Fields"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ParallelComputing"/>
+        <Class IRI="#Fields"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SoftwareEngineering"/>
+        <Class IRI="#Fields"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Topic"/>
+        <NamedIndividual IRI="#Topic1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Topic"/>
+        <NamedIndividual IRI="#Topic10"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Topic"/>
+        <NamedIndividual IRI="#Topic2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Topic"/>
+        <NamedIndividual IRI="#Topic3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Topic"/>
+        <NamedIndividual IRI="#Topic4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Topic"/>
+        <NamedIndividual IRI="#Topic5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Topic"/>
+        <NamedIndividual IRI="#Topic6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Topic"/>
+        <NamedIndividual IRI="#Topic7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Topic"/>
+        <NamedIndividual IRI="#Topic8"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Topic"/>
+        <NamedIndividual IRI="#Topic9"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BigData"/>
+        <NamedIndividual IRI="#android"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BigData"/>
+        <NamedIndividual IRI="#android"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BigData"/>
+        <NamedIndividual IRI="#app"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BigData"/>
+        <NamedIndividual IRI="#app"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BigData"/>
+        <NamedIndividual IRI="#batch"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BigData"/>
+        <NamedIndividual IRI="#batch"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BigData"/>
+        <NamedIndividual IRI="#batch"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BigData"/>
+        <NamedIndividual IRI="#bigtable"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BigData"/>
+        <NamedIndividual IRI="#bigtable"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BigData"/>
+        <NamedIndividual IRI="#bigtable"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BigData"/>
+        <NamedIndividual IRI="#clustering"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BigData"/>
+        <NamedIndividual IRI="#clustering"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ParallelComputing"/>
+        <NamedIndividual IRI="#clustering"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BigData"/>
+        <NamedIndividual IRI="#consistency"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BigData"/>
+        <NamedIndividual IRI="#consistency"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BigData"/>
+        <NamedIndividual IRI="#crowdsource"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#KnowledgeDiscovery"/>
+        <NamedIndividual IRI="#crowdsource"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ParallelComputing"/>
+        <NamedIndividual IRI="#d"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#KnowledgeDiscovery"/>
+        <NamedIndividual IRI="#dbpedia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BigData"/>
+        <NamedIndividual IRI="#developer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#KnowledgeDiscovery"/>
+        <NamedIndividual IRI="#entity"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ParallelComputing"/>
+        <NamedIndividual IRI="#gae"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ParallelComputing"/>
+        <NamedIndividual IRI="#gae"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BigData"/>
+        <NamedIndividual IRI="#graphs"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BigData"/>
+        <NamedIndividual IRI="#graphs"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BigData"/>
+        <NamedIndividual IRI="#graphs"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ParallelComputing"/>
+        <NamedIndividual IRI="#graphx"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ParallelComputing"/>
+        <NamedIndividual IRI="#graphx"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BigData"/>
+        <NamedIndividual IRI="#hadoop"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BigData"/>
+        <NamedIndividual IRI="#hive"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BigData"/>
+        <NamedIndividual IRI="#hive"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ParallelComputing"/>
+        <NamedIndividual IRI="#incremental"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BigData"/>
+        <NamedIndividual IRI="#javascript"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#KnowledgeDiscovery"/>
+        <NamedIndividual IRI="#javascript"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BigData"/>
+        <NamedIndividual IRI="#k"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BigData"/>
+        <NamedIndividual IRI="#k"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ParallelComputing"/>
+        <NamedIndividual IRI="#k"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BigData"/>
+        <NamedIndividual IRI="#key"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BigData"/>
+        <NamedIndividual IRI="#key"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BigData"/>
+        <NamedIndividual IRI="#mapreduce"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BigData"/>
+        <NamedIndividual IRI="#mapreduce"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BigData"/>
+        <NamedIndividual IRI="#mean"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ParallelComputing"/>
+        <NamedIndividual IRI="#mean"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BigData"/>
+        <NamedIndividual IRI="#myname"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CloudComputing"/>
+        <NamedIndividual IRI="#myname"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ClusterComputing"/>
+        <NamedIndividual IRI="#myname"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DatabaseComputing"/>
+        <NamedIndividual IRI="#myname"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DatabaseComputing"/>
+        <NamedIndividual IRI="#myname"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DatabaseComputing"/>
+        <NamedIndividual IRI="#myname"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DatabaseComputing"/>
+        <NamedIndividual IRI="#myname"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DatabaseComputing"/>
+        <NamedIndividual IRI="#myname"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DistributedComputing"/>
+        <NamedIndividual IRI="#myname"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DistributedComputing"/>
+        <NamedIndividual IRI="#myname"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DistributedComputing"/>
+        <NamedIndividual IRI="#myname"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DistributedComputing"/>
+        <NamedIndividual IRI="#myname"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DistributedComputing"/>
+        <NamedIndividual IRI="#myname"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DistributedComputing"/>
+        <NamedIndividual IRI="#myname"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#KnowledgeDiscovery"/>
+        <NamedIndividual IRI="#myname"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#KnowledgeDiscovery"/>
+        <NamedIndividual IRI="#myname"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#KnowledgeDiscovery"/>
+        <NamedIndividual IRI="#myname"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#KnowledgeDiscovery"/>
+        <NamedIndividual IRI="#myname"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#KnowledgeDiscovery"/>
+        <NamedIndividual IRI="#myname"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#KnowledgeDiscovery"/>
+        <NamedIndividual IRI="#myname"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#KnowledgeDiscovery"/>
+        <NamedIndividual IRI="#myname"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#KnowledgeDiscovery"/>
+        <NamedIndividual IRI="#myname"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#KnowledgeDiscovery"/>
+        <NamedIndividual IRI="#myname"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#KnowledgeDiscovery"/>
+        <NamedIndividual IRI="#myname"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#KnowledgeDiscovery"/>
+        <NamedIndividual IRI="#myname"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#KnowledgeDiscovery"/>
+        <NamedIndividual IRI="#myname"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MachineLearning"/>
+        <NamedIndividual IRI="#myname"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MachineLearning"/>
+        <NamedIndividual IRI="#myname"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MachineLearning"/>
+        <NamedIndividual IRI="#myname"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MachineLearning"/>
+        <NamedIndividual IRI="#myname"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MachineLearning"/>
+        <NamedIndividual IRI="#myname"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MachineLearning"/>
+        <NamedIndividual IRI="#myname"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MachineLearning"/>
+        <NamedIndividual IRI="#myname"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MobileComputing"/>
+        <NamedIndividual IRI="#myname"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MobileComputing"/>
+        <NamedIndividual IRI="#myname"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MobileComputing"/>
+        <NamedIndividual IRI="#myname"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MobileComputing"/>
+        <NamedIndividual IRI="#myname"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ParallelComputing"/>
+        <NamedIndividual IRI="#myname"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ParallelComputing"/>
+        <NamedIndividual IRI="#myname"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ParallelComputing"/>
+        <NamedIndividual IRI="#myname"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ParallelComputing"/>
+        <NamedIndividual IRI="#myname"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ParallelComputing"/>
+        <NamedIndividual IRI="#myname"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ParallelComputing"/>
+        <NamedIndividual IRI="#myname"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SoftwareEngineering"/>
+        <NamedIndividual IRI="#myname"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SoftwareEngineering"/>
+        <NamedIndividual IRI="#myname"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SoftwareEngineering"/>
+        <NamedIndividual IRI="#myname"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SoftwareEngineering"/>
+        <NamedIndividual IRI="#myname"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SoftwareEngineering"/>
+        <NamedIndividual IRI="#myname"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SoftwareEngineering"/>
+        <NamedIndividual IRI="#myname"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SoftwareEngineering"/>
+        <NamedIndividual IRI="#myname"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BigData"/>
+        <NamedIndividual IRI="#oltp"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BigData"/>
+        <NamedIndividual IRI="#oltp"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#KnowledgeDiscovery"/>
+        <NamedIndividual IRI="#ontology"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ParallelComputing"/>
+        <NamedIndividual IRI="#pagerank"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BigData"/>
+        <NamedIndividual IRI="#peer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BigData"/>
+        <NamedIndividual IRI="#peer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BigData"/>
+        <NamedIndividual IRI="#peer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BigData"/>
+        <NamedIndividual IRI="#peer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BigData"/>
+        <NamedIndividual IRI="#peer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BigData"/>
+        <NamedIndividual IRI="#peer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BigData"/>
+        <NamedIndividual IRI="#peer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#KnowledgeDiscovery"/>
+        <NamedIndividual IRI="#peer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ParallelComputing"/>
+        <NamedIndividual IRI="#peer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ParallelComputing"/>
+        <NamedIndividual IRI="#peer"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ParallelComputing"/>
+        <NamedIndividual IRI="#percolator"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ParallelComputing"/>
+        <NamedIndividual IRI="#percolator"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ParallelComputing"/>
+        <NamedIndividual IRI="#persistent"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#KnowledgeDiscovery"/>
+        <NamedIndividual IRI="#precision"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ParallelComputing"/>
+        <NamedIndividual IRI="#pregel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ParallelComputing"/>
+        <NamedIndividual IRI="#processing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BigData"/>
+        <NamedIndividual IRI="#qos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BigData"/>
+        <NamedIndividual IRI="#qos"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BigData"/>
+        <NamedIndividual IRI="#qualitative"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#KnowledgeDiscovery"/>
+        <NamedIndividual IRI="#qualitative"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BigData"/>
+        <NamedIndividual IRI="#rdbms"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BigData"/>
+        <NamedIndividual IRI="#rdbms"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BigData"/>
+        <NamedIndividual IRI="#rdbms"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BigData"/>
+        <NamedIndividual IRI="#recall"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#KnowledgeDiscovery"/>
+        <NamedIndividual IRI="#recall"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BigData"/>
+        <NamedIndividual IRI="#relational"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BigData"/>
+        <NamedIndividual IRI="#relational"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BigData"/>
+        <NamedIndividual IRI="#relational"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BigData"/>
+        <NamedIndividual IRI="#spanner"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BigData"/>
+        <NamedIndividual IRI="#spanner"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BigData"/>
+        <NamedIndividual IRI="#spark"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BigData"/>
+        <NamedIndividual IRI="#statistical"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BigData"/>
+        <NamedIndividual IRI="#statistical"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ParallelComputing"/>
+        <NamedIndividual IRI="#stream"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ParallelComputing"/>
+        <NamedIndividual IRI="#structure"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BigData"/>
+        <NamedIndividual IRI="#supervise"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BigData"/>
+        <NamedIndividual IRI="#supervise"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BigData"/>
+        <NamedIndividual IRI="#uima"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#KnowledgeDiscovery"/>
+        <NamedIndividual IRI="#uima"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BigData"/>
+        <NamedIndividual IRI="#usability"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BigData"/>
+        <NamedIndividual IRI="#usability"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BigData"/>
+        <NamedIndividual IRI="#value"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BigData"/>
+        <NamedIndividual IRI="#value"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BigData"/>
+        <NamedIndividual IRI="#value"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BigData"/>
+        <NamedIndividual IRI="#vector"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BigData"/>
+        <NamedIndividual IRI="#vector"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ParallelComputing"/>
+        <NamedIndividual IRI="#vector"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BigData"/>
+        <NamedIndividual IRI="#version"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BigData"/>
+        <NamedIndividual IRI="#version"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BigData"/>
+        <NamedIndividual IRI="#web"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BigData"/>
+        <NamedIndividual IRI="#webtable"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BigData"/>
+        <NamedIndividual IRI="#webtable"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#BigData"/>
+        <NamedIndividual IRI="#webtable"/>
+    </ClassAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#android"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#android"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#app"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#app"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#batch"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#batch"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#batch"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#bigtable"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#bigtable"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#bigtable"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#clustering"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#clustering"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#clustering"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#consistency"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#consistency"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#crowdsource"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#crowdsource"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#d"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#dbpedia"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#developer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#entity"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#gae"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#gae"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#graphs"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#graphs"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#graphs"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#graphx"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#graphx"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#hadoop"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#hive"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#hive"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#incremental"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#javascript"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#javascript"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#k"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#k"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#k"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#key"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#key"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#mapreduce"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#mapreduce"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#mean"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#mean"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#oltp"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#oltp"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#ontology"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#pagerank"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#peer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#peer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#peer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#peer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#peer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#peer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#peer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#peer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#peer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#peer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#percolator"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#percolator"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#persistent"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#precision"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#pregel"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#processing"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#qos"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#qos"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#qualitative"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#qualitative"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#rdbms"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#rdbms"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#rdbms"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#recall"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#recall"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#relational"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#relational"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#relational"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#spanner"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#spanner"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#spark"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#statistical"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#statistical"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#stream"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#structure"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#supervise"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#supervise"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#uima"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#uima"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#usability"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#usability"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#value"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#value"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#value"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#vector"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#vector"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#vector"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#version"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#version"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#web"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#webtable"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#webtable"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#webtable"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#BigData"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#BigData"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#BigData"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#BigData"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#BigData"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#BigData"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#BigData"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#BigData"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#BigData"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#BigData"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#BigData"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#BigData"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#BigData"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#BigData"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#BigData"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#BigData"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#BigData"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#BigData"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#BigData"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#BigData"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#BigData"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#BigData"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#BigData"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#BigData"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#BigData"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#BigData"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#BigData"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#BigData"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#BigData"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#BigData"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#BigData"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#BigData"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#BigData"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#BigData"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#BigData"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#BigData"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#BigData"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#BigData"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#BigData"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#BigData"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#BigData"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#BigData"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#BigData"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#BigData"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#BigData"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#BigData"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#BigData"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#BigData"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#BigData"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#BigData"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#BigData"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#BigData"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#BigData"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#BigData"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#BigData"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#BigData"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#BigData"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#BigData"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#BigData"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#BigData"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#BigData"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#BigData"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#BigData"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#BigData"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#BigData"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#BigData"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#BigData"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#BigData"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#BigData"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#BigData"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#KnowledgeDiscovery"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#KnowledgeDiscovery"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#KnowledgeDiscovery"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#KnowledgeDiscovery"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#KnowledgeDiscovery"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#KnowledgeDiscovery"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#KnowledgeDiscovery"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#KnowledgeDiscovery"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#KnowledgeDiscovery"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#KnowledgeDiscovery"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#ParallelComputing"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#ParallelComputing"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#ParallelComputing"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#ParallelComputing"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#ParallelComputing"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#ParallelComputing"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#ParallelComputing"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#ParallelComputing"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#ParallelComputing"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#ParallelComputing"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#ParallelComputing"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#ParallelComputing"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#ParallelComputing"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#ParallelComputing"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#ParallelComputing"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#ParallelComputing"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#ParallelComputing"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#ParallelComputing"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic1"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic1"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic1"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic1"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic1"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic1"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic1"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic1"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic1"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic10"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic10"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic10"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic10"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic10"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic10"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic10"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic10"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic10"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic10"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic2"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic3"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic4"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic4"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic4"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic4"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic4"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic4"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic4"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic4"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic4"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic4"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic5"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic5"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic5"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic5"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic5"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic5"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic5"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic5"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic5"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic5"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic6"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic6"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic6"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic6"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic6"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic6"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic6"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic6"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic6"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic6"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic7"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic7"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic7"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic7"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic7"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic7"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic7"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic7"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic7"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic7"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic8"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic8"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic8"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic8"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic8"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic8"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic8"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic8"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic8"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic8"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic9"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic9"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic9"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic9"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic9"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic9"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic9"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic9"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic9"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasTopic"/>
+        <Class IRI="#Topic9"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#android"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#android"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#app"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#app"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#batch"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#batch"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#batch"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#bigtable"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#bigtable"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#bigtable"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#clustering"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#clustering"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#clustering"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#consistency"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#consistency"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#crowdsource"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#crowdsource"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#d"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#dbpedia"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#developer"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#entity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#gae"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#gae"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#graphs"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#graphs"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#graphs"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#graphx"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#graphx"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#hadoop"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#hive"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#hive"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#incremental"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#javascript"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#javascript"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#k"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#k"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#k"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#key"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#key"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#mapreduce"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#mapreduce"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#mean"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#mean"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#oltp"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#oltp"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#ontology"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#pagerank"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#peer"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#peer"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#peer"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#peer"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#peer"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#peer"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#peer"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#peer"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#peer"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#peer"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#percolator"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#percolator"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#persistent"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#precision"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#pregel"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#processing"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#qos"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#qos"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#qualitative"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#qualitative"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#rdbms"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#rdbms"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#rdbms"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#recall"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#recall"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#relational"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#relational"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#relational"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#spanner"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#spanner"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#spark"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#statistical"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#statistical"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#stream"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#structure"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#supervise"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#supervise"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#uima"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#uima"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#usability"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#usability"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#value"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#value"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#value"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#vector"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#vector"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#vector"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#version"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#version"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#web"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#webtable"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#webtable"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isRelatedTo"/>
+        <Class IRI="#webtable"/>
+    </ObjectPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 5.0.2.20160507-1747) https://github.com/owlcs/owlapi/ -->
+
+

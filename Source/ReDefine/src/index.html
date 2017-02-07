@@ -1,0 +1,52 @@
+<html>
+<head>
+<style>
+div.background {
+    background: url(image3.gif) repeat;
+    border: 2px solid black;
+}
+
+div.transbox {
+    margin: 120px;
+    background-color: whitesmoke;
+    border: 1px solid black;
+    opacity: 0.85;
+    filter: alpha(opacity=85); 
+}
+
+div.transbox p {
+    margin: 110px;
+    font-weight: bold;
+    color: black;
+}
+</style>
+</head>
+<body>
+
+<div class="background">
+  <div class="transbox">
+   
+<div class="container">
+    <div class="row">
+        <center>
+            <div ng-app="">
+            <h1><b>Text Summarization</b></h1>
+
+            <p>
+               <h2><b>Choose an article/publication to summarize:</b></h2> 
+                <input type="file" name="datafile" size="60" style="color:black;background-color:white">
+                </p>
+                 <input class="id2" class="button big-btn" onclick="location.href='texsummarization.html'" type="button" name="Text Summary" value="Text Summary" id="Text Summary" align="left"  style="width:150px; height:60px;color:white;background-color:green;border:2px solid #336600;padding:3px;position: absolute;top:380;left:250;"></input>
+            
+            <br> <br> <br> <input class="id2"  onclick="location.href='graphSummary.html'" type="button" name="Graph Summary" value="Graph Summary" id="Graph Summary" style="width:150px; height:60px;color:white;background-color:orange;border:2px solid #336600;padding:3px;position: absolute;top:380;right:250;"></input>
+               
+    </center>
+    </div>
+</div>
+        </div>
+    
+  </div>
+</div>
+
+</body>
+</html>

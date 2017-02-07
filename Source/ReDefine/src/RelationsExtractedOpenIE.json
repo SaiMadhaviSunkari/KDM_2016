@@ -1,0 +1,455 @@
+{
+   "name":"A Distributed Machine learning System",
+   "children":[
+      {
+         "name":"Machine learning (ML) and statistical techniques",
+         "children":[
+            {
+               "name":"are",
+               "children":[
+                  {
+                     "name":"key to transforming big data into actionable knowledge"
+                  }
+               ]
+            }
+         ]
+      },
+	  	  {
+         "name":"MLbase",
+         "children":[
+            {
+               "name":"provides way",
+               "children":[
+				  {
+                     "name":"a simple declarative way to specify ML tasks"
+                  }
+               ]
+            },
+			{
+               "name":"can not optimally support",
+               "children":[
+                  {
+                     "name":"every machine learning scenario"
+                  }
+               ]
+            },
+			{
+               "name":"uses",
+               "children":[
+                  {
+                     "name":"a novel optimizer"
+                  }
+               ]
+            },
+			{
+               "name":"provides",
+               "children":[
+                  {
+                     "name":"a natural platform for ML researchers to develop novel methods to these tasks"
+                  }
+               ]
+            }
+         ]
+      },
+   {
+         "name":"We",
+         "children":[
+            {
+               "name":"describe",
+               "children":[
+                  {
+                     "name":"a set of typical MLbase use cases"
+                  },
+				  {
+                     "name":"the optimizer's model selection"
+                  },
+				  {
+                     "name":"the MLbase run-time"
+                  }
+               ]
+            },
+
+			{
+               "name":"show",
+               "children":[
+                  {
+                     "name":"the optimization pipeline"
+                  },
+				  {
+                     "name":"how it differs from traditional database pipelines"
+                  }
+               ]
+            },
+			{
+               "name":"sketch",
+               "children":[
+                  {
+                     "name":"how the optimizer iteratively improves the model in the background"
+                  }
+               ]
+            }
+         ]
+      },
+	  
+      {
+         "name":"existing scalable systems that support machine learning",
+         "children":[
+            {
+               "name":"are typically not",
+               "children":[
+                  {
+                     "name":"accessible to ML researchers"
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "name":"a novel system",
+         "children":[
+            {
+               "name":"harnessing",
+               "children":[
+                  {
+                     "name":"the power of machine"
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "name":"machine",
+         "children":[
+            {
+               "name":"learning",
+               "children":[
+                  {
+                     "name":"for both end-users and ML researchers"
+                  }
+               ]
+            }
+         ]
+      },
+
+      {
+         "name":"overwhelming-many users",
+         "children":[
+            {
+               "name":"do not understand",
+               "children":[
+                  {
+                     "name":"the trade-offs and challenges of parameterizing and choosing between different learning techniques"
+                  }
+               ]
+            }
+         ]
+      },
+	     
+      {
+         "name":"ML researchers",
+         "children":[
+            {
+               "name":"to scalably implement",
+               "children":[
+                  {
+                     "name":"a wide range of ML methods"
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "name":"a new run-time",
+         "children":[
+            {
+               "name":"optimized",
+               "children":[
+                  {
+                     "name":"for the data-access patterns of these high-level operators"
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "name":"astronomy",
+         "children":[
+            {
+               "name":"are",
+               "children":[
+                  {
+                     "name":"among a multitude of applications"
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "name":"applications",
+         "children":[
+            {
+               "name":"have generated",
+               "children":[
+                  {
+                     "name":"an explosion of abundant data"
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "name":"machine learning techniques",
+         "children":[
+            {
+               "name":"enable",
+               "children":[
+                  {
+                     "name":"users"
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "name":"users",
+         "children":[
+            {
+               "name":"to extract",
+               "children":[
+                  {
+                     "name":"underlying structure"
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "name":"derivative works",
+         "children":[
+            {
+               "name":"provided",
+               "children":[
+                  {
+                     "name":"that you attribute the original work to the author(s) and CIDR 2013"
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "name":"algorithms",
+         "children":[
+            {
+               "name":"is understandably",
+               "children":[
+                  {
+                     "name":"overwhelming to layman users"
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "name":"layman users",
+         "children":[
+            {
+               "name":"may not understand",
+               "children":[
+                  {
+                     "name":"the trade-offs"
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "name":"machine learning",
+         "children":[
+            {
+               "name":"forces",
+               "children":[
+                  {
+                     "name":"developers"
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "name":"developers",
+         "children":[
+            {
+               "name":"to build",
+               "children":[
+                  {
+                     "name":"ad-hoc solutions"
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "name":"various data corpora",
+         "children":[
+            {
+               "name":"ranging",
+               "children":[
+                  {
+                     "name":"from small to very large data sets"
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "name":"declarative language",
+         "children":[
+            {
+               "name":"to specify",
+               "children":[
+                  {
+                     "name":"machine learning tasks"
+                  }
+               ]
+            }
+         ]
+      },
+      
+      {
+         "name":"the DBMS",
+         "children":[
+            {
+               "name":"achieves",
+               "children":[
+                  {
+                     "name":"good performance"
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "name":"highly optimized C++ solutions",
+         "children":[
+            {
+               "name":"are",
+               "children":[
+                  {
+                     "name":"stronger"
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "name":"This",
+         "children":[
+            {
+               "name":"is",
+               "children":[
+                  {
+                     "name":"similar to a traditional DBMS"
+                  }
+               ]
+            }
+         ]
+      },
+      
+      {
+         "name":"a distributed run-time",
+         "children":[
+            {
+               "name":"optimized",
+               "children":[
+                  {
+                     "name":"for the data-access patterns of machine learning"
+                  }
+               ]
+            }
+         ]
+      },
+
+
+ 
+      {
+         "name":"the optimizer",
+         "children":[
+            {
+               "name":"iteratively improves",
+               "children":[
+                  {
+                     "name":"the model in the background"
+                  }
+               ]
+            }
+         ]
+      },
+      
+          
+      {
+         "name":"ML researchers",
+         "children":[
+            {
+               "name":"to develop",
+               "children":[
+                  {
+                     "name":"novel methods to these tasks"
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "name":"the many use cases",
+         "children":[
+            {
+               "name":"will provide",
+               "children":[
+                  {
+                     "name":"MLbase"
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "name":"most patients",
+         "children":[
+            {
+               "name":"suffer",
+               "children":[
+                  {
+                     "name":"from a rapidly progressing disease course"
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "name":"participants",
+         "children":[
+            {
+               "name":"to develop",
+               "children":[
+                  {
+                     "name":"a binary classifier to predict whether an ALS patient will display delayed disease progression"
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "name":"MLbase on its own",
+         "children":[
+            {
+               "name":"will not allow",
+               "children":[
+                  {
+                     "name":"one to win the ALS prize"
+                  }
+               ]
+            }
+         ]
+      }
+   ]
+}
